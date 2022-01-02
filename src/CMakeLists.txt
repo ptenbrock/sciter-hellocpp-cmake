@@ -14,3 +14,6 @@ target_link_libraries(hellocpp
     PRIVATE
     sciter_js_sdk
 )
+set_target_properties(hellocpp PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
+)

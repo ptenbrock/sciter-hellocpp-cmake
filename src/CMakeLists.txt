@@ -8,7 +8,6 @@ add_custom_target(packfolder_resources
 
 add_executable(hellocpp
     main.cpp
-    sciter-gtk-main.cpp
 )
 add_dependencies(hellocpp packfolder_resources)
 target_link_libraries(hellocpp
